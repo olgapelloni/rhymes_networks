@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Граф как метод описания истории русской рифмы
 
-You can use the [editor on GitHub](https://github.com/avonizos/rhymes_networks/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Об исследовании
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Исследование посвящено новому методу анализа русских рифм при помощи метода сетей. Созвучие стихотворных строк может быть удобно описано в терминах теории графов, так как оно представляет связь между словами. Определенные свойства могут быть приписаны узлам или связям, граф можно визуализировать и анализировать с помощью метрик.
 
-### Markdown
+Для сетевого анализа рифм мы написали [программу](https://github.com/avonizos/BA_Thesis), которая автоматически находит рифмы в файлах Национального корпуса русского языка, классфицирует их (богатая, точная и т.д.), строит рифменные сети. Усовершенствованную версию программы (без построения сетей) можно найти [тут](https://github.com/avonizos/Russian_rhyme_detector). 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Принцип работы программы:
 
-```markdown
-Syntax highlighted code block
+![Image](workflow.png)
 
-# Header 1
-## Header 2
-### Header 3
+# Результаты
 
-- Bulleted
-- List
+В результате мы построили 5 сетей по разным временным отрезкам: одну сеть по XVIII веку, по одной сети на каждую треть XIX века, одну сеть по первой трети XX века.  
 
-1. Numbered
-2. List
+Основные результаты:
 
-**Bold** and _Italic_ and `Code` text
+1. Анализ визуализаций показал, что крупнейшие кластеры рифм одинаковы для всех получившихся сетей (пр. закрытые и открытые рифмы с ударным [а]). Крупнейшие узлы также повторяются -- местоимения _он_, _она_, _мой_. При помощи визуализации рифменных сетей мы обнаружили общелингвистические черты русских рифм, независимые от определенной эпохи.
 
-[Link](url) and ![Image](src)
-```
+2. Полученные сети характеризуются безмасштабны (scale free), так как степени узлов распределены по степенному закону. Кроме того, наши рифменные не сети не обладают свойством тесного мира (коэффициент кластеризации меньше 0.1). Интересно, что оба этих качества присущи естественно возникающим сетям (биологическим, социальным). Мы предполагаем, что наблюдаемое противоречие говорит о том, что язык рифмы искусственен, подчинен некоторым ограничениям и правилам (метр, ритм и т.д.), однако рифмы создаются на естественном языке.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Image](deg_dist.png)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/avonizos/rhymes_networks/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+3. 
