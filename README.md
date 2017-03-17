@@ -68,7 +68,7 @@
   </tr>
   <tr>
     <td>Диаметр</td>
-    <td style="color:red;">36</td>
+    <td>![#f03c15](36)</td>
     <td><b>42</b></td>
     <td>39</td>
     <td>51</td>
