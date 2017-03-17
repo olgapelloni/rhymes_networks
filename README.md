@@ -48,72 +48,11 @@
 
 <p>3. Три графовые метрики (диаметр, средняя длина пути, ассортативность) показали схожие значения для рифменных сетей XVIII века и первой трети XX века. Максимальные значения таких метрик, как средняя длина пути, ассортативность, кликовое число и максимальное <i>k</i>-ядро приходятся на первую треть XIX века. Мы интерпретируем полученные результаты таким образом, что схожие эпохи характеризуются нестабильными рифменными системами &mdash; формирование классицизма в XVIII веке, разрушение традиции в начале XX века. Первая треть XIX века &mdash; наиболее устойчивая система, характеризуемая определенным ядром популярных рифм.</p>
 
-<span style="color:red">36</span>
-
-<center>
-<table>
-  <tr>
-    <td>Параметр</td>
-    <td>XVIII в.</td>
-    <td>1-я тр. XIX в.</td>
-    <td>2-я тр. XIX в.</td>
-    <td>3-я тр. XIX в.</td>
-    <td>1-я тр. XX в.</td>
-  </tr>
-  <tr>
-    <td>Ср. коэф. кл.</td>
-    <td>0,098</td>
-    <td>0,126</td>
-    <td>0,108</td>
-    <td>0,107</td>
-    <td>0,134</td>
-  </tr>
-  <tr>
-    <td>Диаметр</td>
-    <td><p><span style="color:red">36</span></p></td>
-    <td><b>42</b></td>
-    <td>39</td>
-    <td>51</td>
-    <td style="color:red;">34</td>
-  </tr>
-  <tr>
-    <td>Ср. дл. пути</td>
-    <td style="color:red;">8,969</td>
-    <td><b>11,474</b></td>
-    <td>9,978</td>
-    <td>10,967</td>
-    <td style="color:red;">8,194</td>
-  </tr>
-  <tr>
-    <td>Ассорт.</td>
-    <td style="color:red;">0,142</td>
-    <td><b>0,305</b></td>
-    <td>0,252</td>
-    <td>0,271</td>
-    <td style="color:red;">0,152</td>
-  </tr>
-  <tr>
-    <td>Клик. число</td>
-    <td style="color:red;">10</td>
-    <td><b>22</b></td>
-    <td>19</td>
-    <td>13</td>
-    <td style="color:red;">3</td>
-  </tr>
-  <tr>
-  <td>Макс. <i>k</i>-ядро</td>
-    <td style="color:red;">15</td>
-    <td><b>31</b></td>
-    <td>26</td>
-    <td>19</td>
-    <td style="color:red;">20</td>
-  </tr>
-</table>
-</center>
-
 <p align="center">
   <img src ="metrics.png" width="80%" height ="80%"/>
 </p>
+
+(Таблица для копирования значений расположена [здесь](https://github.com/avonizos/rhymes_networks/blob/master/metrics_table.md))
 
 ## Ссылки
 [Полный текст исследования](https://www.hse.ru/edu/vkr/183946227)
