@@ -28,15 +28,15 @@
 
 Примеры динамических визуализаций:
 
-- <a href="http://sozinova.com/dh_hse/18.html" target="_blank">XVIII век: 3469 рифм (131 слово, степень узла >= 100)</a>
+- <a href="https://avonizos.github.io/18_graph/" target="_blank">XVIII век: 3469 рифм (131 слово, степень узла >= 100)</a>
   
-- <a href="http://sozinova.com/dh_hse/19_1.html" target="_blank">XIX век 1-я треть: 6457 рифм (130 слов, степень узла >= 160)</a>
+- <a href="https://avonizos.github.io/19_1_graph/" target="_blank">XIX век 1-я треть: 6457 рифм (130 слов, степень узла >= 160)</a>
  
-- <a href="http://sozinova.com/dh_hse/19_2.html" target="_blank">XIX век 2-я треть: 6457 рифм (130 слов, степень узла >= 160)</a>
+- <a href="https://avonizos.github.io/19_2_graph/" target="_blank">XIX век 2-я треть: 6457 рифм (130 слов, степень узла >= 160)</a>
   
-- <a href="http://sozinova.com/dh_hse/19_3.html" target="_blank">XIX век 3-я треть: 3944 рифм (136 слов, степень узла >= 100)</a>
+- <a href="https://avonizos.github.io/19_3_graph/" target="_blank">XIX век 3-я треть: 3944 рифм (136 слов, степень узла >= 100)</a>
   
-- <a href="http://sozinova.com/dh_hse/20_1.html" target="_blank">XX век 1-я треть: 12280 рифм (136 слов, степень узла >= 100)</a>
+- <a href="https://avonizos.github.io/20_1_graph/" target="_blank">XX век 1-я треть: 12280 рифм (136 слов, степень узла >= 100)</a>
   
 <a href="https://github.com/avonizos/BA_Thesis/tree/master/visualization">Оригиналы динамических визуализаций</a>
 
